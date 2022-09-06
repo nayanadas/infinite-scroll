@@ -2,11 +2,20 @@
   text-align: center;
 }
 
-.container{
+.scrollcontainer{
   width:auto;
   height: 250px;
   background: #ebebeb;
   border-radius: 6px;
   margin: 18px;
   padding: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.sticky{
+  position: fixed;
+  top:0;
+  width:100%;
+  z-index: 100;
 }
